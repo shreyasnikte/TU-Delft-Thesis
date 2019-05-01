@@ -1,6 +1,27 @@
 \documentclass[whitelogo]{tudelft-report}
 \usepackage{natbib}
 \usepackage{changes}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage{amssymb}
+\usepackage{graphicx}%
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{appendix}
+\usepackage{courier}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{float} 
+\usepackage{listings}
+
 \begin{document}
 
 %% Use Roman numerals for the page numbers of the title pages and table of
@@ -33,7 +54,7 @@
 \subtitle[tudelft-black]{Optional subtitle}
 \author[tudelft-white]{S.\ Nikte}
 \affiliation{Technische Universiteit Delft}
-\coverimage{tank.jpg}
+% \coverimage{tank.jpg}
 \covertext[tudelft-white]{
     \textbf{Master of Science} \\
     Electrical Engineering \\
@@ -45,17 +66,17 @@
 
 
 %% Include an optional title page.
-\input{title}
+% \input{title}
 
-\input{preface}
+% \input{preface}
 
-\tableofcontents
+% \tableofcontents
 
 %% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
 
-\input{chapter-1}
-
+% \input{chapter-1}
+\input{simulator.tex}
 %% Use letters for the chapter numbers of the appendices.
 % \appendix
 
